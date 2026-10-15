@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.96.62](https://github.com/brave/brave-browser/releases/tag/v1.96.62)
+
+### Leo
+
+ - Added Leo AI voice input support to homescreen and lockscreen widgets. ([#58183](https://github.com/brave/brave-browser/issues/58183))
+ - Added support for rendering mathematical equations in Leo responses. ([#56523](https://github.com/brave/brave-browser/issues/56523))
+ 
+### General
+
+ - Added support for new GPC API on iOS 27. ([#55958](https://github.com/brave/brave-browser/issues/55958))
+ - Added variable blur effect to the top of the webview on iOS 26+. ([#58418](https://github.com/brave/brave-browser/issues/58418))
+ - [Security] Fixed Private Browsing Only mode being bypassed when opening deep links as reported on HackerOne by syarif07. ([#59400](https://github.com/brave/brave-browser/issues/59400))
+ - Removed playlist icon in the URL bar from being displayed on the YouTube homepage. ([#58718](https://github.com/brave/brave-browser/issues/58718))
+ - Updated the New Tab Page background to be extended to the screen edges for iOS 26+. ([#58450](https://github.com/brave/brave-browser/issues/58450))
+ - Updated filter lists to use full permissions. ([#59112](https://github.com/brave/brave-browser/issues/59112))
+ - Fixed Instagram reels not working when forwarded via direct message. ([#54921](https://github.com/brave/brave-browser/issues/54921))
+ - Fixed "Site Tabs Closed" being truncated in the shields panel's Shred detail view. ([#58585](https://github.com/brave/brave-browser/issues/58585))
+ - Upgraded Chromium to 154.0.8037.98. ([#59587](https://github.com/brave/brave-browser/issues/59587))([Changelog for 154.0.8037.98](https://chromium.googlesource.com/chromium/src/+log/153.0.8010.53..154.0.8037.98?pretty=fuller&n=10000))
+ 
+## [1.95.104](https://github.com/brave/brave-browser/releases/tag/v1.95.104)
+
+### Web3
+
+ - Added Zcash Ironwood migration banner. ([#58493](https://github.com/brave/brave-browser/issues/58493))
+ - Fixed spacing for asset loading skeleton on the "Accounts" page. ([#57871](https://github.com/brave/brave-browser/issues/57871))
+
+### Leo
+
+ - Added the ability to share a Leo conversation. ([#56444](https://github.com/brave/brave-browser/issues/56444))
+ - Removed 15 word limit when using Leo voice input. ([#57829](https://github.com/brave/brave-browser/issues/57829))
+
+### General
+
+ - Added option to reset the Rewards profile in "Brave Rewards” settings page. ([#40768](https://github.com/brave/brave-browser/issues/40768))
+ - Updated tab tray UI. ([#57053](https://github.com/brave/brave-browser/issues/57053))
+ - Updated the design of the VPN promo callout in "Settings" menu. ([#57587](https://github.com/brave/brave-browser/issues/57587))
+ - Fixed crashes related to the cosmetic filtering tab helper. ([#58967](https://github.com/brave/brave-browser/issues/58967))
+ - Fixed regional filter lists not being enabled by default for certain locales. ([#58808](https://github.com/brave/brave-browser/issues/58808))
+ - Fixed media being downloaded twice when adding to Playlist. ([#57523](https://github.com/brave/brave-browser/issues/57523))
+ - Fixed blank screen being shown when opening the Brave app using CarPlay. ([#55775](https://github.com/brave/brave-browser/issues/55775))
+ - Upgraded Chromium to 153.0.8010.53. ([#59125](https://github.com/brave/brave-browser/issues/59125))([Changelog for 153.0.8010.53](https://chromium.googlesource.com/chromium/src/+log/152.0.7977.83..153.0.8010.53?pretty=fuller&n=10000))
+
 ## [1.94.122](https://github.com/brave/brave-browser/releases/tag/v1.94.122)
 
  - [Security] Fixed minibar eliding issue as reported on HackerOne by z3phyrus. ([#57393](https://github.com/brave/brave-browser/issues/57393))
